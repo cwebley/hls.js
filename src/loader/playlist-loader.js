@@ -95,6 +95,7 @@ class PlaylistLoader {
       }
 
       levels.push(level);
+      result = re.exec(string);
     }
     return levels;
   }
